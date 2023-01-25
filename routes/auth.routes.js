@@ -84,7 +84,7 @@ try {
         { expiresIn: '1h' }
       )
 
-        res.json({token, user.id})
+        res.json({token, userId : user.id})
 
 
     } catch (e) {
